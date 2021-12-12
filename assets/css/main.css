@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1287,6 +1290,34 @@ input, select, textarea {
 				display: none;
 			}
 
+
+/* 
+		#header .logo {
+			-moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
+			-webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
+			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
+			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+			pointer-events: auto;
+			border-style: solid;
+			border-color: #ffffff;
+			border-width: 5px !important;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-size: 2.25rem;
+			font-weight: 900;
+			letter-spacing: 0.075em;
+			line-height: 1;
+			padding: 1rem 1.75rem;
+			text-transform: uppercase;
+			visibility: visible;
+		}
+
+			#header .logo:hover {
+				border-color: var(--link-color) !important;
+				color: var(--link-color) !important;
+			}
+ */
+
+
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
@@ -1298,6 +1329,10 @@ input, select, textarea {
 			#header .logo .icon:before {
 				font-size: 2rem;
 			}
+
+
+
+
 
 		#header .content {
 			border-style: solid;
