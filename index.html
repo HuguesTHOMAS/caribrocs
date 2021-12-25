@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<title>Hugues THOMAS</title>
+	<title>Caribros</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -33,7 +33,10 @@
 
 				<script type="text/javascript">
 					function get_action(form) {
-						if (document.getElementById('mdp').value == 'Aa1') {
+						if (document.getElementById('mdp').value == 'caribou') {
+							form.action = "index_reveal.html";
+						}
+						else if (document.getElementById('mdp').value == 'Caribou') {
 							form.action = "index_reveal.html";
 						}
 						else {

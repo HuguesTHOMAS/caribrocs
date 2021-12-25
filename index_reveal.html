@@ -7,7 +7,7 @@
 <html>
 
 <head>
-	<title>Title Here</title>
+	<title>Caribros</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
@@ -37,8 +37,14 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#team">La Team</a></li>
-					<li><a href="#StMalo">Premiere Etape</a></li>
+					<li><a href="#team">Un Trio Legendaire</a></li>
+				</ul>
+			</nav>
+			<nav>
+				<ul>
+					<li><a href="#StMalo">Le prélude</a></li>
+				</ul>
+				<ul>
 					<li><a href="#Fondouce">L'apothéose</a></li>
 				</ul>
 			</nav>
@@ -50,19 +56,124 @@
 			<!-- Intro -->
 			<article id="team">
 				<h2 class="major">Une team de BG (ou pas...)</h2>
-				<img src='images/Team1.png' onmouseover="this.src='images/Team2.png';" onmouseout="this.src='images/Team1.png';" />
+				<span class="image main"></span><img width="100%" src='images/Team1.png'
+					onmouseover="this.src='images/Team2.png';" onmouseout="this.src='images/Team1.png';"
+					alt="" /></span>
 			</article>
 
-			<!-- Intro -->
+			<!-- Le Prélude -->
 			<article id="StMalo">
-				<h2 class="major">Video</h2>
-				<span class="image main"><img src="images/Logo1.png" alt="" /></span>
+				<h2 class="major">Le Prélude</h2>
+				<section>
+					<p>C'est dans une charmante ville fortifiée que les vœux seront échangés, en petit commité, devant les hautes
+						instances de l'autorité. Seuls les privilegiés y seront conviés, pour un week-end à festoyer. Mais lequel?</p>
+					<p><em>Sous le signe du lapin, vous chercherez la descendance de Caius Octavius, evitez le nombre
+							porteur de malheurs, cependant, son double vous apportera le bonheur</em></p>
+					<hr />
+				</section>
+
+				<script type="text/javascript">
+					function get_action(form) {
+						if (document.getElementById('mdpstmalo').value == '26 aout 2023') {
+							form.action = "#StMalo2";
+						}
+						else {
+							form.action = "#StMalo";
+						}
+					}
+				</script>
+				<form onsubmit="get_action(this);">
+					<input type="text" id="mdpstmalo" value="" placeholder="...">
+				</form>
+
 			</article>
 
-			<!-- Intro -->
+			<article id="StMalo2">
+				<h2 class="major">Le Prelude</h2>
+				<section>
+					<p>C'est dans la charmante ville fortifiée de Saint Malo que les vœux seront échangés, en petit commité, devant les hautes
+						instances de l'autorité. Chacun de vous y est convié, pour un week-end à festoyer. Reservez le week-end du 26 Aout 2023.</p>
+					<hr />
+				</section>
+
+				<section>
+					<div class="video_wrapper">
+						<iframe src="https://www.youtube.com/embed/KzeK_u3q4-c" allow="autoplay; encrypted-media"
+							frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</section>
+
+			</article>
+
+
+			<!-- L'apothéose -->
 			<article id="Fondouce">
-				<h2 class="major">Video</h2>
-				<span class="image main"><img src="images/Logo1.png" alt="" /></span>
+
+				<h2 class="major">L'apothéose</h2>
+				<section>
+					<p>C'est dans les campagnes des Charentes que la fête battra son plein. La date est fixée au premier
+						weekend du mois de septembre, en l'année 2023.
+						Afin d'en découvrir le lieu, il vous faudra percer ce mystère.</p>
+					<p><em>
+						Je suis une ville d'art et d'histoire, dont les origines remontent à l'antiquité. En mon
+						château naquit François Ier en 1494.
+						Aujourd'hui sous-préfecture du département de la Charente, mon blason est décrit par la
+						phrase suivante:
+						« De gueules au cavalier, le casque en tête, d'argent, monté sur un cheval du même
+						contourné,
+						le cavalier portant une fleur de lys d'or au bout d'un bâton d'argent ;
+						au chef d'azur chargé de trois fleurs de lys d'or. »
+						</em></p>
+					<div>
+						<div class="icon"><img src="images/Blason.svg" alt="" width="30%" /></div>
+					</div>
+					<hr />
+				</section>
+
+				<script type="text/javascript">
+					function get_action2(form) {
+						if (document.getElementById('mdpFondouce').value == 'Cognac') {
+							form.action = "#Fondouce2";
+						}
+						else {
+							form.action = "#Fondouce";
+						}
+					}
+				</script>
+				<form onsubmit="get_action2(this);">
+					<input type="text" id="mdpFondouce" value="" placeholder="...">
+				</form>
+
+			</article>
+
+
+			<article id="Fondouce2">
+
+				<h2 class="major">L'apothéose</h2>
+				<section>
+					<p>C'est dans les campagnes des Charentes que la fête battra son plein. La date est fixée au premier
+						weekend du mois de septembre, en l'année 2023.
+						Près de Cognac, c'est à l'abbaye de Fontdouce que nous ferons la ribouldingue.</p>
+					<hr />
+				</section>
+
+				<section>
+					<div class="video_wrapper">
+						<iframe src="https://www.youtube.com/embed/_wp3YjyIMmQ" allow="autoplay; encrypted-media"
+							frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</section>
+
+				<section>
+					<div class="video_wrapper">
+						<iframe src="https://www.youtube.com/embed/brf_MNBo63A" allow="autoplay; encrypted-media"
+							frameborder="0" allowfullscreen>
+						</iframe>
+					</div>
+				</section>
+
 			</article>
 
 		</div>
